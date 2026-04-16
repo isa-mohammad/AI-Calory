@@ -1,17 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --background: oklch(0.1 0 0);
-  --foreground: oklch(0.98 0 0);
-  --primary: oklch(0.7 0.25 140);
-  /* Vibrant Green */
-  --primary-foreground: oklch(0.1 0 0);
-  --secondary: oklch(0.2 0.05 250);
-  /* Sleek Deep Blue/Purple */
-  --accent: oklch(0.8 0.2 60);
-  /* Warm Gold/Orange */
-  --card: oklch(0.15 0.02 0);
-  --border: oklch(0.25 0 0);
+  --background: oklch(0.45 0.2 145);
+  --foreground: oklch(0.99 0 0);
+  --primary: oklch(0.6 0.25 140);
+  /* Bright Lime Green */
+  --primary-foreground: oklch(0.99 0 0);
+  /* White */
+  --secondary: oklch(0.38 0.18 150);
+  /* Darker forest green */
+  --accent: oklch(0.7 0.28 135);
+  /* Vivid lime accent */
+  --card: oklch(0.4 0.18 148);
+  /* Slightly darker green for cards */
+  --border: oklch(0.5 0.2 145);
+  /* Mid green border */
 }
 
 body {
@@ -21,14 +24,14 @@ body {
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 1.5rem;
 }
 
 .premium-gradient {
-  background: linear-gradient(135deg, oklch(0.7 0.25 140) 0%, oklch(0.5 0.2 250) 100%);
+  background: linear-gradient(135deg, oklch(0.6 0.25 140) 0%, oklch(0.7 0.28 135) 100%);
 }
 
 .animate-float {

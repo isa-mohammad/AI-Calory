@@ -18,7 +18,7 @@ export async function analyzeFoodImage(
     imageBase64: string,
     mimeType: string
 ): Promise<FoodAnalysisResult> {
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' })
+    const model = genAI.getGenerativeModel({ model: 'gemini-3-flash-preview' })
 
     const prompt = `You are a nutrition expert. Analyze this food image and provide detailed nutritional information.
 
@@ -78,7 +78,7 @@ export async function generateMealPlan(
     days: number = 7
 ): Promise<any> {
     const model = genAI.getGenerativeModel({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-2.0-flash',
         generationConfig: {
             temperature: 0.7,
         }
@@ -143,7 +143,7 @@ export async function getRecipeSuggestions(
         cooking_time?: number
     }
 ): Promise<any> {
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' })
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' })
 
     const prompt = `Suggest 3 healthy recipes using these ingredients: ${ingredients.join(', ')}
 
