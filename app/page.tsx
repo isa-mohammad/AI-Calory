@@ -101,7 +101,7 @@ export default function LandingPage() {
           <div className="relative hidden lg:block animate-float">
             <div className="glass-card p-4 rotate-3 scale-110 shadow-2xl relative">
               <img
-                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2000&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2000&auto=format&fit=crop"
                 alt="Healthy Meal"
                 className="rounded-xl w-full h-[500px] object-cover"
               />
