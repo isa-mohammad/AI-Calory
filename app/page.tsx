@@ -69,7 +69,7 @@ export default function LandingPage() {
             </h1>
 
             <p className="text-xl text-white/80 max-w-lg leading-relaxed">
-              Unlock the power of Gemini 2.5 Flash to track your meals instantly.
+              Unlock the power of AI to track your meals instantly.
               Snap a photo, get accurate calories, and reach your goals faster than ever.
             </p>
 
